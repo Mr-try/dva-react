@@ -1,0 +1,15 @@
+.content-main{
+  display: flex;
+  position: absolute;
+  top: 64px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.content-left {
+  flex:0.2;
+  background-color: black;
+}
+.content-right {
+  flex:1;
+}

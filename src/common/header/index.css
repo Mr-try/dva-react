@@ -1,0 +1,18 @@
+.header-wrap{
+  display: flex;
+  height: 64px;
+  background: #fff;
+}
+.header-left{
+  flex: 0.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  background: #002140;
+}
+.header-right{
+  flex: 1;
+  height: 64px;
+  background: #002140;
+}
