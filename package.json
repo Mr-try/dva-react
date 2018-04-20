@@ -14,6 +14,7 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
+    "parcel": "parcel ./public/index.html",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -21,6 +22,17 @@
   },
   "devDependencies": {
     "react-router-config": "^1.0.0-beta.4",
-    "react-router-dom": "^4.2.2"
+    "react-router-dom": "^4.2.2",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
   }
 }
